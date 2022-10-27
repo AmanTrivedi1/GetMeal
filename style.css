@@ -332,9 +332,16 @@ blockquote{
         width: 700px;
     }
 }
-
 @media screen and (min-width: 992px){
     #meal{
         grid-template-columns: repeat(3, 1fr);
     }
+}
+
+.none{
+    display: none;
+    color: RED;
+}
+.extraclass{
+    display: none;
 }
