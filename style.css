@@ -315,8 +315,11 @@ blockquote{
         margin-right: auto;
     }
 }
-
+.copyright{
+    text-align: center;
+}
 @media screen and (min-width: 768px){
+   
     #meal{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
